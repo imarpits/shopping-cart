@@ -119,7 +119,7 @@ let TotalAmount = () => {
         return item * search.price;
       })
       .reduce((x, y) => x + y, 0);
-    // console.log(amount);
+    
     label.innerHTML = `
     <h2>Total Bill : $ ${amount}</h2>
     <button class="checkout">Checkout</button>
